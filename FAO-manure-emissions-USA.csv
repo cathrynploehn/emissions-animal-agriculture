@@ -51,8 +51,6 @@ Other,2009,164510.88
 Other,2010,167610.27
 Other,2011,169414.91
 Other,2012,169299.01
-Other,2030,158774.48
-Other,2050,163576.86
 Enteric Fermentation,1961,144412.52
 Enteric Fermentation,1962,146582.94
 Enteric Fermentation,1963,149863.73
@@ -105,8 +103,6 @@ Enteric Fermentation,2009,126735.73
 Enteric Fermentation,2010,125959.28
 Enteric Fermentation,2011,124815.57
 Enteric Fermentation,2012,122746.57
-Enteric Fermentation,2030,133778.51
-Enteric Fermentation,2050,131863.48
 Manure Management,1961,51575.85
 Manure Management,1962,52942.26
 Manure Management,1963,52913.52
@@ -159,8 +155,6 @@ Manure Management,2009,48706.92
 Manure Management,2010,48619.1
 Manure Management,2011,48877.6
 Manure Management,2012,48795.03
-Manure Management,2030,51831.07
-Manure Management,2050,52718.15
 Other,1961,4726.05
 Other,1962,5269.95
 Other,1963,5269.95
@@ -213,8 +207,6 @@ Other,2009,9229.76
 Other,2010,10752.68
 Other,2011,7784.16
 Other,2012,7968.53
-Other,2030,10526.87
-Other,2050,11079.76
 Other,1961,19733
 Other,1962,23006.86
 Other,1963,25487.97
@@ -267,8 +259,6 @@ Other,2009,68581.32
 Other,2010,72733.72
 Other,2011,76330.59
 Other,2012,78046.22
-Other,2030,54668.47
-Other,2050,57529.96
 Manure applied to Soils,1961,14249.6
 Manure applied to Soils,1962,14273.5
 Manure applied to Soils,1963,14258.05
@@ -321,8 +311,6 @@ Manure applied to Soils,2009,16435.59
 Manure applied to Soils,2010,16429.56
 Manure applied to Soils,2011,16450.71
 Manure applied to Soils,2012,16456.3
-Manure applied to Soils,2030,18697.6
-Manure applied to Soils,2050,19964.6
 Manure left on Pasture,1961,38545.18
 Manure left on Pasture,1962,39659.31
 Manure left on Pasture,1963,41417.79
@@ -375,8 +363,6 @@ Manure left on Pasture,2009,40412.93
 Manure left on Pasture,2010,40210.33
 Manure left on Pasture,2011,39711.49
 Manure left on Pasture,2012,38906.69
-Manure left on Pasture,2030,42698.89
-Manure left on Pasture,2050,41686.15
 Other,1961,12322.23
 Other,1962,12078.7
 Other,1963,12773.22
@@ -429,8 +415,6 @@ Other,2009,29059.86
 Other,2010,28215.49
 Other,2011,26900.95
 Other,2012,25868.62
-Other,2030,32688.36
-Other,2050,34374.98
 Other,1961,2519.86
 Other,1962,2363.2
 Other,1963,2499.39
@@ -483,8 +467,6 @@ Other,2009,3227.4
 Other,2010,3269.61
 Other,2011,3308.49
 Other,2012,3458.39
-Other,2030,3558.62
-Other,2050,3671.48
 Other,1990,1380.09
 Other,1991,1380.09
 Other,1992,1380.09
@@ -508,8 +490,6 @@ Other,2009,1169.6
 Other,2010,583.12
 Other,2011,2709.68
 Other,2012,1618.78
-Other,2030,1380.09
-Other,2050,1380.09
 Other,1970,42200.31
 Other,1971,42947.78
 Other,1972,42962.28
@@ -575,5 +555,3 @@ Other,2009,10021.18
 Other,2010,10021.18
 Other,2011,10021.18
 Other,2012,10021.18
-Other,2030,10021.18
-Other,2050,10021.18
