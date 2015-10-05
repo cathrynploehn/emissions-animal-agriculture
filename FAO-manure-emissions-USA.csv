@@ -1,557 +1,1 @@
-source,year,emissions
-Other,1961,84850
-Other,1962,89018.36
-Other,1963,93937.03
-Other,1964,96522.67
-Other,1965,102622.49
-Other,1966,106910.91
-Other,1967,113199.98
-Other,1968,114262.29
-Other,1969,117611.72
-Other,1970,121728.68
-Other,1971,125176.9
-Other,1972,127690.09
-Other,1973,135664.04
-Other,1974,133379.87
-Other,1975,148360.77
-Other,1976,147883.06
-Other,1977,142882.91
-Other,1978,145064.25
-Other,1979,149170.75
-Other,1980,150765.2
-Other,1981,150238.34
-Other,1982,140043.81
-Other,1983,143867.32
-Other,1984,151340.33
-Other,1985,145055.08
-Other,1986,139970.92
-Other,1987,138932.64
-Other,1988,134201.19
-Other,1989,140563.12
-Other,1990,153475.37
-Other,1991,152959.36
-Other,1992,157218.55
-Other,1993,160670.1
-Other,1994,161585.84
-Other,1995,161877.46
-Other,1996,165872.82
-Other,1997,165490.83
-Other,1998,166018.61
-Other,1999,164023.07
-Other,2000,159593.43
-Other,2001,161247.71
-Other,2002,159882.7
-Other,2003,166025.48
-Other,2004,167447.31
-Other,2005,164341.59
-Other,2006,167757.99
-Other,2007,170424.33
-Other,2008,167707.32
-Other,2009,164510.88
-Other,2010,167610.27
-Other,2011,169414.91
-Other,2012,169299.01
-Enteric Fermentation,1961,144412.52
-Enteric Fermentation,1962,146582.94
-Enteric Fermentation,1963,149863.73
-Enteric Fermentation,1964,152283.36
-Enteric Fermentation,1965,152320.29
-Enteric Fermentation,1966,150605.4
-Enteric Fermentation,1967,149626.91
-Enteric Fermentation,1968,149223.99
-Enteric Fermentation,1969,149100.06
-Enteric Fermentation,1970,151039.11
-Enteric Fermentation,1971,153561.57
-Enteric Fermentation,1972,156626.7
-Enteric Fermentation,1973,160007.63
-Enteric Fermentation,1974,166497.55
-Enteric Fermentation,1975,170582.13
-Enteric Fermentation,1976,165537.93
-Enteric Fermentation,1977,159743.36
-Enteric Fermentation,1978,152432.19
-Enteric Fermentation,1979,146308.73
-Enteric Fermentation,1980,147126.5
-Enteric Fermentation,1981,150699.58
-Enteric Fermentation,1982,151931.6
-Enteric Fermentation,1983,151251.06
-Enteric Fermentation,1984,148987.27
-Enteric Fermentation,1985,144884.18
-Enteric Fermentation,1986,139749.29
-Enteric Fermentation,1987,135377.66
-Enteric Fermentation,1988,132653.01
-Enteric Fermentation,1989,129191.56
-Enteric Fermentation,1990,128117.24
-Enteric Fermentation,1991,128489.45
-Enteric Fermentation,1992,129630.6
-Enteric Fermentation,1993,131181.83
-Enteric Fermentation,1994,132971.08
-Enteric Fermentation,1995,134850.74
-Enteric Fermentation,1996,135428.28
-Enteric Fermentation,1997,132975.28
-Enteric Fermentation,1998,130823.38
-Enteric Fermentation,1999,130114.61
-Enteric Fermentation,2000,129089.79
-Enteric Fermentation,2001,128006.19
-Enteric Fermentation,2002,127594.17
-Enteric Fermentation,2003,127132.94
-Enteric Fermentation,2004,126036.64
-Enteric Fermentation,2005,127192.94
-Enteric Fermentation,2006,128862.25
-Enteric Fermentation,2007,128788.02
-Enteric Fermentation,2008,128460.75
-Enteric Fermentation,2009,126735.73
-Enteric Fermentation,2010,125959.28
-Enteric Fermentation,2011,124815.57
-Enteric Fermentation,2012,122746.57
-Manure Management,1961,51575.85
-Manure Management,1962,52942.26
-Manure Management,1963,52913.52
-Manure Management,1964,52586.42
-Manure Management,1965,50608.55
-Manure Management,1966,48465.39
-Manure Management,1967,49723.15
-Manure Management,1968,49349.92
-Manure Management,1969,49308.28
-Manure Management,1970,48541.13
-Manure Management,1971,51118.02
-Manure Management,1972,49983.45
-Manure Management,1973,48861.4
-Manure Management,1974,49542.4
-Manure Management,1975,48182.05
-Manure Management,1976,46392.31
-Manure Management,1977,47172.07
-Manure Management,1978,47003.48
-Manure Management,1979,47667.63
-Manure Management,1980,49496.09
-Manure Management,1981,49307.28
-Manure Management,1982,48063.96
-Manure Management,1983,46824.48
-Manure Management,1984,46973.86
-Manure Management,1985,46269.13
-Manure Management,1986,45409.98
-Manure Management,1987,44697.99
-Manure Management,1988,45081.26
-Manure Management,1989,44840.09
-Manure Management,1990,44514.38
-Manure Management,1991,44755.88
-Manure Management,1992,45700.07
-Manure Management,1993,46099.71
-Manure Management,1994,46359.04
-Manure Management,1995,47129.66
-Manure Management,1996,47012.01
-Manure Management,1997,46364.87
-Manure Management,1998,47397.46
-Manure Management,1999,47836.66
-Manure Management,2000,47348.42
-Manure Management,2001,47366.05
-Manure Management,2002,47658.29
-Manure Management,2003,47473.95
-Manure Management,2004,47578.01
-Manure Management,2005,47880.33
-Manure Management,2006,48316.62
-Manure Management,2007,48510.26
-Manure Management,2008,49962.9
-Manure Management,2009,48706.92
-Manure Management,2010,48619.1
-Manure Management,2011,48877.6
-Manure Management,2012,48795.03
-Other,1961,4726.05
-Other,1962,5269.95
-Other,1963,5269.95
-Other,1964,5314.05
-Other,1965,5332.2
-Other,1966,5851.23
-Other,1967,5859.86
-Other,1968,6999.95
-Other,1969,6330.71
-Other,1970,5397.64
-Other,1971,5407.16
-Other,1972,5407.16
-Other,1973,6455.04
-Other,1974,7528.2
-Other,1975,8381.85
-Other,1976,7376.5
-Other,1977,6689.6
-Other,1978,8834.19
-Other,1979,8533.79
-Other,1980,9851.2
-Other,1981,11279.16
-Other,1982,9702.74
-Other,1983,6451.46
-Other,1984,8334.9
-Other,1985,7412.48
-Other,1986,7019.25
-Other,1987,6939.14
-Other,1988,8625.96
-Other,1989,7989.45
-Other,1990,8396.64
-Other,1991,8271.69
-Other,1992,9316.13
-Other,1993,8426.77
-Other,1994,9863.33
-Other,1995,9200
-Other,1996,8340.42
-Other,1997,9229.78
-Other,1998,9687.85
-Other,1999,10446.34
-Other,2000,9039.42
-Other,2001,9857.4
-Other,2002,9539.12
-Other,2003,8914.52
-Other,2004,9890.09
-Other,2005,10006.14
-Other,2006,8390.98
-Other,2007,8173.85
-Other,2008,8852.02
-Other,2009,9229.76
-Other,2010,10752.68
-Other,2011,7784.16
-Other,2012,7968.53
-Other,1961,19733
-Other,1962,23006.86
-Other,1963,25487.97
-Other,1964,27161.07
-Other,1965,31188.29
-Other,1966,35291.75
-Other,1967,39744.74
-Other,1968,40740.39
-Other,1969,43677.55
-Other,1970,47525.17
-Other,1971,46885.58
-Other,1972,48485.66
-Other,1973,53553.71
-Other,1974,50402.82
-Other,1975,60965.27
-Other,1976,62346.11
-Other,1977,58348.05
-Other,1978,62740.28
-Other,1979,66792.09
-Other,1980,69820.12
-Other,1981,64311.54
-Other,1982,53443.33
-Other,1983,64950.46
-Other,1984,67294.91
-Other,1985,61040.6
-Other,1986,59782.1
-Other,1987,61550.91
-Other,1988,62025.43
-Other,1989,64855.83
-Other,1990,66090.73
-Other,1991,67024.37
-Other,1992,66506.06
-Other,1993,74028.3
-Other,1994,68618.02
-Other,1995,72042.85
-Other,1996,72328
-Other,1997,72096.71
-Other,1998,72818.11
-Other,1999,72068.11
-Other,2000,67541.8
-Other,2001,70321.86
-Other,2002,70646.71
-Other,2003,74464.63
-Other,2004,73573.89
-Other,2005,71089.5
-Other,2006,75037.81
-Other,2007,74777.68
-Other,2008,71545.15
-Other,2009,68581.32
-Other,2010,72733.72
-Other,2011,76330.59
-Other,2012,78046.22
-Manure applied to Soils,1961,14249.6
-Manure applied to Soils,1962,14273.5
-Manure applied to Soils,1963,14258.05
-Manure applied to Soils,1964,14267.63
-Manure applied to Soils,1965,14070.54
-Manure applied to Soils,1966,13793.07
-Manure applied to Soils,1967,13986.08
-Manure applied to Soils,1968,13636.64
-Manure applied to Soils,1969,13607.73
-Manure applied to Soils,1970,13621.96
-Manure applied to Soils,1971,14009.28
-Manure applied to Soils,1972,14047.82
-Manure applied to Soils,1973,13935.52
-Manure applied to Soils,1974,14124.71
-Manure applied to Soils,1975,13898.49
-Manure applied to Soils,1976,13841.58
-Manure applied to Soils,1977,13828.44
-Manure applied to Soils,1978,13764.34
-Manure applied to Soils,1979,14031.12
-Manure applied to Soils,1980,14365.13
-Manure applied to Soils,1981,14550.54
-Manure applied to Soils,1982,14372.78
-Manure applied to Soils,1983,14277.16
-Manure applied to Soils,1984,14266.65
-Manure applied to Soils,1985,14349.81
-Manure applied to Soils,1986,14423.37
-Manure applied to Soils,1987,14700.74
-Manure applied to Soils,1988,14751.72
-Manure applied to Soils,1989,14955.45
-Manure applied to Soils,1990,15244.21
-Manure applied to Soils,1991,15398.81
-Manure applied to Soils,1992,15674.39
-Manure applied to Soils,1993,15830.3
-Manure applied to Soils,1994,15992.05
-Manure applied to Soils,1995,16292.13
-Manure applied to Soils,1996,16495.29
-Manure applied to Soils,1997,16426.48
-Manure applied to Soils,1998,16344.8
-Manure applied to Soils,1999,16318.94
-Manure applied to Soils,2000,16408.44
-Manure applied to Soils,2001,16484.1
-Manure applied to Soils,2002,16627.89
-Manure applied to Soils,2003,16485.56
-Manure applied to Soils,2004,16416.38
-Manure applied to Soils,2005,16474.34
-Manure applied to Soils,2006,16657.42
-Manure applied to Soils,2007,16833.02
-Manure applied to Soils,2008,17108.34
-Manure applied to Soils,2009,16435.59
-Manure applied to Soils,2010,16429.56
-Manure applied to Soils,2011,16450.71
-Manure applied to Soils,2012,16456.3
-Manure left on Pasture,1961,38545.18
-Manure left on Pasture,1962,39659.31
-Manure left on Pasture,1963,41417.79
-Manure left on Pasture,1964,42874.02
-Manure left on Pasture,1965,43795.43
-Manure left on Pasture,1966,44031.64
-Manure left on Pasture,1967,44217.14
-Manure left on Pasture,1968,44640.03
-Manure left on Pasture,1969,45091.98
-Manure left on Pasture,1970,46217.2
-Manure left on Pasture,1971,47263.06
-Manure left on Pasture,1972,48633.9
-Manure left on Pasture,1973,50245.67
-Manure left on Pasture,1974,52892.62
-Manure left on Pasture,1975,54637.1
-Manure left on Pasture,1976,52908.88
-Manure left on Pasture,1977,50725.34
-Manure left on Pasture,1978,48083.57
-Manure left on Pasture,1979,45778.32
-Manure left on Pasture,1980,45947.9
-Manure left on Pasture,1981,47253.43
-Manure left on Pasture,1982,47690.04
-Manure left on Pasture,1983,47457.55
-Manure left on Pasture,1984,46824.52
-Manure left on Pasture,1985,45149.63
-Manure left on Pasture,1986,43419.52
-Manure left on Pasture,1987,42166.43
-Manure left on Pasture,1988,41174.33
-Manure left on Pasture,1989,40010.39
-Manure left on Pasture,1990,39666.9
-Manure left on Pasture,1991,39961.46
-Manure left on Pasture,1992,40494.18
-Manure left on Pasture,1993,41188.74
-Manure left on Pasture,1994,41958.24
-Manure left on Pasture,1995,42699.14
-Manure left on Pasture,1996,43038.74
-Manure left on Pasture,1997,42249.9
-Manure left on Pasture,1998,41463.95
-Manure left on Pasture,1999,41186.37
-Manure left on Pasture,2000,40797.11
-Manure left on Pasture,2001,40507.33
-Manure left on Pasture,2002,40388.59
-Manure left on Pasture,2003,40389.46
-Manure left on Pasture,2004,40150.75
-Manure left on Pasture,2005,40699.66
-Manure left on Pasture,2006,41301.28
-Manure left on Pasture,2007,41246.89
-Manure left on Pasture,2008,40993.71
-Manure left on Pasture,2009,40412.93
-Manure left on Pasture,2010,40210.33
-Manure left on Pasture,2011,39711.49
-Manure left on Pasture,2012,38906.69
-Other,1961,12322.23
-Other,1962,12078.7
-Other,1963,12773.22
-Other,1964,12219.95
-Other,1965,13568.23
-Other,1966,13794.45
-Other,1967,15252.02
-Other,1968,15245.23
-Other,1969,15234.45
-Other,1970,14364.35
-Other,1971,17018.98
-Other,1972,16522.72
-Other,1973,17929.15
-Other,1974,15959.72
-Other,1975,18859.91
-Other,1976,18786.48
-Other,1977,19981.07
-Other,1978,20476.06
-Other,1979,22569.23
-Other,1980,20632.04
-Other,1981,24122.82
-Other,1982,24537.66
-Other,1983,17182.14
-Other,1984,22954.24
-Other,1985,24515.04
-Other,1986,22345.93
-Other,1987,20514.56
-Other,1988,16249.71
-Other,1989,20741.44
-Other,1990,22452.34
-Other,1991,20553.55
-Other,1992,24522.75
-Other,1993,19601.59
-Other,1994,24996.35
-Other,1995,20822.15
-Other,1996,23989.61
-Other,1997,24696.56
-Other,1998,25370.57
-Other,1999,24428.47
-Other,2000,24824.9
-Other,2001,23913.26
-Other,2002,22198.34
-Other,2003,24664.65
-Other,2004,27285.12
-Other,2005,26056.92
-Other,2006,24740.3
-Other,2007,27545.57
-Other,2008,28038.95
-Other,2009,29059.86
-Other,2010,28215.49
-Other,2011,26900.95
-Other,2012,25868.62
-Other,1961,2519.86
-Other,1962,2363.2
-Other,1963,2499.39
-Other,1964,2433.51
-Other,1965,2430.38
-Other,1966,2485.34
-Other,1967,2713.5
-Other,1968,2524.64
-Other,1969,2377.97
-Other,1970,2416.36
-Other,1971,2684.67
-Other,1972,2471.22
-Other,1973,2711.94
-Other,1974,2963.97
-Other,1975,3092.66
-Other,1976,3227.46
-Other,1977,3173.29
-Other,1978,3066.32
-Other,1979,3154.81
-Other,1980,3290.39
-Other,1981,3469.6
-Other,1982,3368.47
-Other,1983,2466.15
-Other,1984,3194.74
-Other,1985,3266.68
-Other,1986,3013.95
-Other,1987,2655.75
-Other,1988,2591.19
-Other,1989,2909.01
-Other,1990,3066.85
-Other,1991,2984.12
-Other,1992,3157.07
-Other,1993,2861.57
-Other,1994,3161.74
-Other,1995,2916.22
-Other,1996,3169.05
-Other,1997,3175.61
-Other,1998,3128.26
-Other,1999,3001.18
-Other,2000,3046.1
-Other,2001,2876.05
-Other,2002,2858.3
-Other,2003,2997.08
-Other,2004,3047.67
-Other,2005,3096.87
-Other,2006,2902.86
-Other,2007,3458.41
-Other,2008,3269.56
-Other,2009,3227.4
-Other,2010,3269.61
-Other,2011,3308.49
-Other,2012,3458.39
-Other,1990,1380.09
-Other,1991,1380.09
-Other,1992,1380.09
-Other,1993,1380.09
-Other,1994,1380.09
-Other,1995,1380.09
-Other,1996,1601
-Other,1997,715.25
-Other,1998,1157.52
-Other,1999,1217.21
-Other,2000,1309.2
-Other,2001,421.25
-Other,2002,1944.98
-Other,2003,1292.45
-Other,2004,1677.22
-Other,2005,2320.45
-Other,2006,1484.11
-Other,2007,1428.91
-Other,2008,810.9
-Other,2009,1169.6
-Other,2010,583.12
-Other,2011,2709.68
-Other,2012,1618.78
-Other,1970,42200.31
-Other,1971,42947.78
-Other,1972,42962.28
-Other,1973,46758.06
-Other,1974,41828.36
-Other,1975,40831.35
-Other,1976,44416.66
-Other,1977,51810.89
-Other,1978,52593.03
-Other,1979,59521.11
-Other,1980,51016.91
-Other,1981,48765.66
-Other,1982,66342.07
-Other,1983,51094.38
-Other,1984,54179.97
-Other,1985,0
-Other,1986,59679.75
-Other,1987,58419.09
-Other,1988,61829.67
-Other,1989,56976.29
-Other,1990,47812
-Other,1991,47767.3
-Other,1992,52046.73
-Other,1993,49241.53
-Other,1994,49978.01
-Other,1995,50132.44
-Other,1996,51329.3
-Other,1997,51788.75
-Other,1998,47483
-Other,1999,43713.97
-Other,2000,46596.29
-Other,2001,51227.16
-Other,2002,49955.38
-Other,2003,43799.97
-Other,2004,55765.61
-Other,2005,55430.58
-Other,2006,58063.43
-Other,2007,53235.77
-Other,2008,51207.95
-Other,2009,47145.83
-Other,2010,52901.95
-Other,2011,48040.62
-Other,1990,10021.18
-Other,1991,10021.18
-Other,1992,10021.18
-Other,1993,10021.18
-Other,1994,10021.18
-Other,1995,10021.18
-Other,1996,10021.18
-Other,1997,10021.18
-Other,1998,10021.18
-Other,1999,10021.18
-Other,2000,10021.18
-Other,2001,10021.18
-Other,2002,10021.18
-Other,2003,10021.18
-Other,2004,10021.18
-Other,2005,10021.18
-Other,2006,10021.18
-Other,2007,10021.18
-Other,2008,10021.18
-Other,2009,10021.18
-Other,2010,10021.18
-Other,2011,10021.18
-Other,2012,10021.18
+source,year,emissionsOther,1961,124151.14Other,1962,131737.07Other,1963,139967.56Other,1964,143651.25Other,1965,155141.59Other,1966,164333.68Other,1967,176770.1Other,1968,179772.5Other,1969,185232.4Other,1970,233632.51Other,1971,240121.07Other,1972,243539.13Other,1973,263071.94Other,1974,252062.94Other,1975,280491.81Other,1976,284036.27Other,1977,282885.81Other,1978,292774.13Other,1979,309741.78Other,1980,305375.86Other,1981,302187.12Other,1982,297438.08Other,1983,286011.91Other,1984,307299.09Other,1985,241289.88Other,1986,200576.85Other,1987,289012.09Other,1988,285523.15Other,1989,294035.14Other,1990,312695.2Other,1991,310961.66Other,1992,324168.56Other,1993,326231.13Other,1994,329604.56Other,1995,328392.39Other,1996,336651.38Other,1997,337214.67Other,1998,335685.1Other,1999,328919.53Other,2000,321972.32Other,2001,329885.87Other,2002,327046.71Other,2003,332179.96Other,2004,348708.09Other,2005,342363.23Other,2006,348398.66Other,2007,349065.7Other,2008,341453.03Other,2009,332945.83Other,2010,346088.02Other,2011,344510.58Other,2012,296280.73Manure Management,1961,51575.85Manure Management,1962,52942.26Manure Management,1963,52913.52Manure Management,1964,52586.42Manure Management,1965,50608.55Manure Management,1966,48465.39Manure Management,1967,49723.15Manure Management,1968,49349.92Manure Management,1969,49308.28Manure Management,1970,48541.13Manure Management,1971,51118.02Manure Management,1972,49983.45Manure Management,1973,48861.4Manure Management,1974,49542.4Manure Management,1975,48182.05Manure Management,1976,46392.31Manure Management,1977,47172.07Manure Management,1978,47003.48Manure Management,1979,47667.63Manure Management,1980,49496.09Manure Management,1981,49307.28Manure Management,1982,48063.96Manure Management,1983,46824.48Manure Management,1984,46973.86Manure Management,1985,46269.13Manure Management,1986,45409.98Manure Management,1987,44697.99Manure Management,1988,45081.26Manure Management,1989,44840.09Manure Management,1990,44514.38Manure Management,1991,44755.88Manure Management,1992,45700.07Manure Management,1993,46099.71Manure Management,1994,46359.04Manure Management,1995,47129.66Manure Management,1996,47012.01Manure Management,1997,46364.87Manure Management,1998,47397.46Manure Management,1999,47836.66Manure Management,2000,47348.42Manure Management,2001,47366.05Manure Management,2002,47658.29Manure Management,2003,47473.95Manure Management,2004,47578.01Manure Management,2005,47880.33Manure Management,2006,48316.62Manure Management,2007,48510.26Manure Management,2008,49962.9Manure Management,2009,48706.92Manure Management,2010,48619.1Manure Management,2011,48877.6Manure Management,2012,48795.03Manure left on Pasture,1961,38545.18Manure left on Pasture,1962,39659.31Manure left on Pasture,1963,41417.79Manure left on Pasture,1964,42874.02Manure left on Pasture,1965,43795.43Manure left on Pasture,1966,44031.64Manure left on Pasture,1967,44217.14Manure left on Pasture,1968,44640.03Manure left on Pasture,1969,45091.98Manure left on Pasture,1970,46217.2Manure left on Pasture,1971,47263.06Manure left on Pasture,1972,48633.9Manure left on Pasture,1973,50245.67Manure left on Pasture,1974,52892.62Manure left on Pasture,1975,54637.1Manure left on Pasture,1976,52908.88Manure left on Pasture,1977,50725.34Manure left on Pasture,1978,48083.57Manure left on Pasture,1979,45778.32Manure left on Pasture,1980,45947.9Manure left on Pasture,1981,47253.43Manure left on Pasture,1982,47690.04Manure left on Pasture,1983,47457.55Manure left on Pasture,1984,46824.52Manure left on Pasture,1985,45149.63Manure left on Pasture,1986,43419.52Manure left on Pasture,1987,42166.43Manure left on Pasture,1988,41174.33Manure left on Pasture,1989,40010.39Manure left on Pasture,1990,39666.9Manure left on Pasture,1991,39961.46Manure left on Pasture,1992,40494.18Manure left on Pasture,1993,41188.74Manure left on Pasture,1994,41958.24Manure left on Pasture,1995,42699.14Manure left on Pasture,1996,43038.74Manure left on Pasture,1997,42249.9Manure left on Pasture,1998,41463.95Manure left on Pasture,1999,41186.37Manure left on Pasture,2000,40797.11Manure left on Pasture,2001,40507.33Manure left on Pasture,2002,40388.59Manure left on Pasture,2003,40389.46Manure left on Pasture,2004,40150.75Manure left on Pasture,2005,40699.66Manure left on Pasture,2006,41301.28Manure left on Pasture,2007,41246.89Manure left on Pasture,2008,40993.71Manure left on Pasture,2009,40412.93Manure left on Pasture,2010,40210.33Manure left on Pasture,2011,39711.49Manure left on Pasture,2012,38906.69Manure applied to Soils,1961,14249.6Manure applied to Soils,1962,14273.5Manure applied to Soils,1963,14258.05Manure applied to Soils,1964,14267.63Manure applied to Soils,1965,14070.54Manure applied to Soils,1966,13793.07Manure applied to Soils,1967,13986.08Manure applied to Soils,1968,13636.64Manure applied to Soils,1969,13607.73Manure applied to Soils,1970,13621.96Manure applied to Soils,1971,14009.28Manure applied to Soils,1972,14047.82Manure applied to Soils,1973,13935.52Manure applied to Soils,1974,14124.71Manure applied to Soils,1975,13898.49Manure applied to Soils,1976,13841.58Manure applied to Soils,1977,13828.44Manure applied to Soils,1978,13764.34Manure applied to Soils,1979,14031.12Manure applied to Soils,1980,14365.13Manure applied to Soils,1981,14550.54Manure applied to Soils,1982,14372.78Manure applied to Soils,1983,14277.16Manure applied to Soils,1984,14266.65Manure applied to Soils,1985,14349.81Manure applied to Soils,1986,14423.37Manure applied to Soils,1987,14700.74Manure applied to Soils,1988,14751.72Manure applied to Soils,1989,14955.45Manure applied to Soils,1990,15244.21Manure applied to Soils,1991,15398.81Manure applied to Soils,1992,15674.39Manure applied to Soils,1993,15830.3Manure applied to Soils,1994,15992.05Manure applied to Soils,1995,16292.13Manure applied to Soils,1996,16495.29Manure applied to Soils,1997,16426.48Manure applied to Soils,1998,16344.8Manure applied to Soils,1999,16318.94Manure applied to Soils,2000,16408.44Manure applied to Soils,2001,16484.1Manure applied to Soils,2002,16627.89Manure applied to Soils,2003,16485.56Manure applied to Soils,2004,16416.38Manure applied to Soils,2005,16474.34Manure applied to Soils,2006,16657.42Manure applied to Soils,2007,16833.02Manure applied to Soils,2008,17108.34Manure applied to Soils,2009,16435.59Manure applied to Soils,2010,16429.56Manure applied to Soils,2011,16450.71Manure applied to Soils,2012,16456.3Enteric Fermentation,1961,144412.52Enteric Fermentation,1962,146582.94Enteric Fermentation,1963,149863.73Enteric Fermentation,1964,152283.36Enteric Fermentation,1965,152320.29Enteric Fermentation,1966,150605.4Enteric Fermentation,1967,149626.91Enteric Fermentation,1968,149223.99Enteric Fermentation,1969,149100.06Enteric Fermentation,1970,151039.11Enteric Fermentation,1971,153561.57Enteric Fermentation,1972,156626.7Enteric Fermentation,1973,160007.63Enteric Fermentation,1974,166497.55Enteric Fermentation,1975,170582.13Enteric Fermentation,1976,165537.93Enteric Fermentation,1977,159743.36Enteric Fermentation,1978,152432.19Enteric Fermentation,1979,146308.73Enteric Fermentation,1980,147126.5Enteric Fermentation,1981,150699.58Enteric Fermentation,1982,151931.6Enteric Fermentation,1983,151251.06Enteric Fermentation,1984,148987.27Enteric Fermentation,1985,144884.18Enteric Fermentation,1986,139749.29Enteric Fermentation,1987,135377.66Enteric Fermentation,1988,132653.01Enteric Fermentation,1989,129191.56Enteric Fermentation,1990,128117.24Enteric Fermentation,1991,128489.45Enteric Fermentation,1992,129630.6Enteric Fermentation,1993,131181.83Enteric Fermentation,1994,132971.08Enteric Fermentation,1995,134850.74Enteric Fermentation,1996,135428.28Enteric Fermentation,1997,132975.28Enteric Fermentation,1998,130823.38Enteric Fermentation,1999,130114.61Enteric Fermentation,2000,129089.79Enteric Fermentation,2001,128006.19Enteric Fermentation,2002,127594.17Enteric Fermentation,2003,127132.94Enteric Fermentation,2004,126036.64Enteric Fermentation,2005,127192.94Enteric Fermentation,2006,128862.25Enteric Fermentation,2007,128788.02Enteric Fermentation,2008,128460.75Enteric Fermentation,2009,126735.73Enteric Fermentation,2010,125959.28Enteric Fermentation,2011,124815.57Enteric Fermentation,2012,122746.57

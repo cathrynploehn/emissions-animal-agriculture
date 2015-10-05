@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>HTML5</title>
+    <title>Greenhouse Gas Emissions from Agriculture</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=650, user-scalable=yes">
 
@@ -9,19 +9,28 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div id="container">
+    <div class="container">
     <div class="row">
         <div class="col-md-12">
-      <header>
-        <h1>Emissions from Livestock in the United States</h1>
-      </header>
-    </div></div>
-      <div class="row">
-        <divclass="col-md-12">
-          <div id= "visualization"></div>
-        </div>
-        <div class="col-md-4"></div>
+          <h1>Greenhouse Gas Emissions from Agriculture<small> in the United States</small></h1>
+
+
+       </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-12">
+        <div id= "visualization"></div>
+        <ul class="nav nav-pills nav-justified">
+          <li role="presentation" class="active"><a href="#">Home</a></li>
+          <li role="presentation" ><a href="#">Home</a></li>
+          <li role="presentation" ><a href="#">Home</a></li>
+        </ul>
       </div>
+      <div class="col-xl-12">
+
+        <div>Source: <a href="http://faostat3.fao.org/download/G1/GT/E">Food and Agriculture Organization of the United Nations, Statistics Division</a></div>
+      </div>
+    </div>
  
     </div>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
@@ -29,21 +38,24 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
     <script type="text/javascript">
       // Width height
-      var width = $('#visualization').width(),
-          height = $('#visualization').height();
+      var margin = {left: 40, right: 100, top: 20, bottom: 50}
+      var width = $('#visualization').width() - margin.left - margin.right,
+          height = $('#visualization').height() - margin.top - margin.bottom;
 
       var svg = d3.select("#visualization").append('svg')
-                .attr("width", width)
-                .attr("height", height);
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");;
 
       var x = d3.scale.ordinal()
-    .rangeRoundBands([0, width], .1);
+    .rangeRoundBands([0, width], .03);
 
       var y = d3.scale.linear()
           .rangeRound([height, 0]);
 
       var color = d3.scale.ordinal()
-          .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
+          .range(["#ACD9E9",  "#D72027", "#FAAD61","#6b486b", "#a05d56", "#cccccc", "#2D7BB7"]);
 
       var xAxis = d3.svg.axis()
           .scale(x)
@@ -58,31 +70,48 @@
         if (error) throw error;
 
         var sources = [];
+        var years = {};
+        var formattedData = [];
 
         // Create keys for source types
         data.forEach(function(d){
           sources.push(d["source"]);
+          year = +d["year"];
+          if(!years[year]) {
+            years[year] = [];
+          }
+          years[year].push({"source": d["source"], "emissions": +d["emissions"]});
         });
 
         sources = jQuery.unique(sources);
         color.domain(d3.keys(sources));
 
-        data.forEach(function(d) {
-          var y0 = 0;
-            d.sourceType = color.domain().map(function(name) { console.log(sources[name]); name = sources[name]; return {name: name, y0: y0, y1: y0 += +d[name]}; });
-            d.total = d.sourceType[d.sourceType.length - 1].y1;
-            d.year = +d["year"];
-          });
+        for(year in years){
+          yearObj = years[year];
+          var y0 = y1 = 0;
+          for(source in yearObj){   
+            var d = yearObj[source];
+            d.y0 = y0;
+            y0 += +d["emissions"];
+            d.y1 = y1 = y0;
+          };   
+          formattedData.push({"year": +year, "total": y1, "sources": yearObj});
 
-        // data.sort(function(a, b) { return b.total - a.total; });
+        };
 
+        formattedData.sort(function(a, b) { return b.year - a.year; });
         x.domain(data.map(function(d) { return d.year; }));
-        y.domain([0, d3.max(data, function(d) { return d.total; })]);
+        y.domain([0, d3.max(formattedData, function(d) { return d["total"]; })]);
 
         svg.append("g")
             .attr("class", "x axis")
             .attr("transform", "translate(0," + height + ")")
-            .call(xAxis);
+            .call(xAxis)
+            .selectAll("text")
+              .attr("x", -10)
+              .attr("y", -6)
+              .attr("transform", "rotate(-90)")
+              .style("text-anchor", "end");
 
         svg.append("g")
             .attr("class", "y axis")
@@ -95,36 +124,37 @@
             .text("CO2 Equivalent Emissions");
 
         var state = svg.selectAll(".state")
-            .data(data)
+            .data(formattedData)
           .enter().append("g")
             .attr("class", "g")
-            .attr("transform", function(d) { return "translate(" + x(d.year) + ",0)"; });
-        console.log(data)
+            .attr("transform", function(d) { return "translate(" + x(d["year"]) + ",0)"; });
+
         state.selectAll("rect")
-            .data(function(d) { return d.sourceType; })
+            .data(function(d) { return d["sources"]; })
           .enter().append("rect")
             .attr("width", x.rangeBand())
-            .attr("y", function(d) { return y(d.y1); })
+            .attr("y", function(d) { return y(+d["y1"]); })
             .attr("height", function(d) { return y(d.y0) - y(d.y1); })
-            .style("fill", function(d) { return color(d.name); });
+            .attr("class", function(d) {return d["source"] + " " + d["emissions"];})
+            .style("fill", function(d) { return color(d["source"]); });
 
         var legend = svg.selectAll(".legend")
-            .data(color.domain().slice().reverse())
+            .data(sources.reverse())
           .enter().append("g")
             .attr("class", "legend")
             .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
 
-        // legend.append("rect")
-        //     .attr("x", width - 18)
-        //     .attr("width", 18)
-        //     .attr("height", 18)
-        //     .style("fill", color);
+        legend.append("rect")
+            .attr("x", width + 100- margin.right)
+            .attr("width", 18)
+            .attr("height", 18)
+            .style("fill", color);
 
         legend.append("text")
-            .attr("x", width - 24)
+            .attr("x", width + 118 - margin.right)
             .attr("y", 9)
             .attr("dy", ".35em")
-            .style("text-anchor", "end")
+            .style("text-anchor", "start")
             .text(function(d) { return d; });
 
       });
