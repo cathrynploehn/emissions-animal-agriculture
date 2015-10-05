@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML5</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=650, user-scalable=yes">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="container">
+    <div class="row">
+        <div class="col-md-12">
+      <header>
+        <h1>Emissions from Livestock in the United States</h1>
+      </header>
+    </div></div>
+      <div class="row">
+        <divclass="col-md-12">
+          <div id= "visualization"></div>
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+ 
+    </div>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+    <script type="text/javascript">
+      // Width height
+      var width = $('#visualization').width(),
+          height = $('#visualization').height();
+
+      var svg = d3.select("#visualization").append('svg')
+                .attr("width", width)
+                .attr("height", height);
+
+      var x = d3.scale.ordinal()
+    .rangeRoundBands([0, width], .1);
+
+      var y = d3.scale.linear()
+          .rangeRound([height, 0]);
+
+      var color = d3.scale.ordinal()
+          .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
+
+      var xAxis = d3.svg.axis()
+          .scale(x)
+          .orient("bottom");
+
+      var yAxis = d3.svg.axis()
+          .scale(y)
+          .orient("left")
+          .tickFormat(d3.format(".2s"));
+
+      d3.csv("FAO-manure-emissions-USA.csv", function(error, data) {
+        if (error) throw error;
+
+        var sources = [];
+
+        // Create keys for source types
+        data.forEach(function(d){
+          sources.push(d["source"]);
+        });
+
+        sources = jQuery.unique(sources);
+        color.domain(d3.keys(sources));
+
+        data.forEach(function(d) {
+          var y0 = 0;
+            d.sourceType = color.domain().map(function(name) { console.log(sources[name]); name = sources[name]; return {name: name, y0: y0, y1: y0 += +d[name]}; });
+            d.total = d.sourceType[d.sourceType.length - 1].y1;
+            d.year = +d["year"];
+          });
+
+        // data.sort(function(a, b) { return b.total - a.total; });
+
+        x.domain(data.map(function(d) { return d.year; }));
+        y.domain([0, d3.max(data, function(d) { return d.total; })]);
+
+        svg.append("g")
+            .attr("class", "x axis")
+            .attr("transform", "translate(0," + height + ")")
+            .call(xAxis);
+
+        svg.append("g")
+            .attr("class", "y axis")
+            .call(yAxis)
+          .append("text")
+            .attr("transform", "rotate(-90)")
+            .attr("y", 6)
+            .attr("dy", ".71em")
+            .style("text-anchor", "end")
+            .text("CO2 Equivalent Emissions");
+
+        var state = svg.selectAll(".state")
+            .data(data)
+          .enter().append("g")
+            .attr("class", "g")
+            .attr("transform", function(d) { return "translate(" + x(d.year) + ",0)"; });
+        console.log(data)
+        state.selectAll("rect")
+            .data(function(d) { return d.sourceType; })
+          .enter().append("rect")
+            .attr("width", x.rangeBand())
+            .attr("y", function(d) { return y(d.y1); })
+            .attr("height", function(d) { return y(d.y0) - y(d.y1); })
+            .style("fill", function(d) { return color(d.name); });
+
+        var legend = svg.selectAll(".legend")
+            .data(color.domain().slice().reverse())
+          .enter().append("g")
+            .attr("class", "legend")
+            .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+        // legend.append("rect")
+        //     .attr("x", width - 18)
+        //     .attr("width", 18)
+        //     .attr("height", 18)
+        //     .style("fill", color);
+
+        legend.append("text")
+            .attr("x", width - 24)
+            .attr("y", 9)
+            .attr("dy", ".35em")
+            .style("text-anchor", "end")
+            .text(function(d) { return d; });
+
+      });
+
+    </script>
+  </body>
+</html>
